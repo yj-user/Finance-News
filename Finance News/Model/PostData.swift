@@ -18,4 +18,5 @@ struct Post: Codable, Identifiable {
     let title: String
     let url: String?
     let publishedAt: String
+    let urlToImage: String?
 }
